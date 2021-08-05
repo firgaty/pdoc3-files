@@ -14,7 +14,7 @@ import codecs
 import argparse
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(
         description="""Analyse structurelle de graphe.
 
@@ -94,3 +94,6 @@ Par défaut, si aucun argument n'est spécifié, un dossier `doc/` est créé av
             if args['type'] == 'rst':
                 with codecs.open(args['output'].joinpath(module_name + ".rst"), "w", "utf-8") as f:
                     f.write(text)
+
+if __name__ == "__main__":
+    main()
