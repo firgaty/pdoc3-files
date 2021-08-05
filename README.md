@@ -1,2 +1,2 @@
 # pdoc3-files
-Bulk Python file documentation generator using pdoc3
+Bulk Python file documentation generator using pdoc3.
